@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    float area,length,height;
+    
+    Scanner right  = new Scanner(System.in);
+    length=right.nextFloat();
+    
+    height = right.nextFloat();
+    
+    area = (1/2.0)*length*height;
+    
+    
+        System.out.println(area); //possible lossy conversion from double to float
+    }
+}
